@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';">
+    <title>AFD1</title>
+
+    <style>
+
+        img{
+            width: 85%;
+        }
+
+        .containerForm{
+            background-color: #6FD4F9;
+            border-radius: 6px 6px 30px 30px;
+            height: 25vh;
+        }
+
+        .form{
+            display: grid;
+            width: 35%;
+            justify-content: center;
+            align-items: center;
+            margin-left: 33%;
+            padding-top: 3%;
+        }
+
+        .form label{
+            margin-bottom: 4%;
+            color: #ffffff;
+        }
+
+        .form input{
+            margin-bottom: 5%;
+            border-radius: 9px;
+            outline: none;
+            text-indent: 4px;
+            border: 1px solid #c7c7c7;
+        }
+
+        .button{
+            background-color: #787FF6;
+            border: none;
+            color: white;
+            outline: none;
+            font-size: 16px;
+            padding: 8px 30px;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+
+        .img{
+            display: flex;
+            margin-top: 7%;
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="containerForm">
+        <div class="form">
+            <label>Ingresa la cadena para validar:</label>
+            <input type="text" id="txtCadena">
+            <button id="comprobar" class="button">Verificar cadena</button>
+        </div>
+    </div>
+
+    <div class="img">
+        <div class="containerLenguaje">
+            <h4>Lenguaje:</h4>
+            <img src="https://i.ibb.co/2sBDfdw/lenguaje-ADF1.png" alt="lenguaje-ADF1" border="0" />
+        </div>
+        <div class="containerDiagrama">
+            <h4>Diagrama</h4>
+            <img src="https://i.ibb.co/51CRwwY/diagrama-AFD1.png" alt="diagrama-AFD1" border="0" />
+        </div>
+    </div>
+
+    <script src="1AFD.js"></script>
+</body>
+
+</html>

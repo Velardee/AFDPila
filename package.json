@@ -1,0 +1,24 @@
+{
+  "name": "pila",
+  "version": "1.0.0",
+  "description": "Finales automata de pila",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "Hugo Velarde",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.0.3",
+    "electron-builder": "^22.9.1"
+  },
+  "build": {
+    "appId": "Velarde.AFDGramaticaPila",
+    "win": {
+      "target": "nsis"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';">
+    <title>Automatas de pila</title>
+
+    <style>
+        .containerTitulo{
+            background-color: #6FD4F9;
+            height: 25vh;
+            border-radius: 10px 5px 30px 0px;
+            color: white;
+            text-align: center;
+        }
+
+        .containerTitulo h1{
+            padding-top: 4%;
+        }
+
+        .container{
+            margin-top: 7%;
+        }
+
+        .disponible{
+            text-align: center;
+        }
+
+        .disponible label{
+            font-size: 15pt;
+        }
+
+        .containerButton{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 4%;
+        }
+
+        .button_cont{
+            width: 23%;
+            cursor: pointer;
+            padding: 2%;
+        }
+
+        .example_c {
+             color: #494949 !important;
+            text-transform: uppercase;
+            text-decoration: none;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 40px;
+            border: 4px solid #8f8f8f !important;
+            display: inline-block;
+            transition: all 0.4s ease 0s;
+        }
+
+        .example_c:hover {
+            color: #ffffff !important;
+            background: #787FF6;
+            border-color: #787FF6 !important;
+            transition: all 0.4s ease 0s;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="containerTitulo">
+        <h1>Automatas Finitos Deterministicos de pila</h1>
+    </div>
+    
+    <div class="container">
+        <div class="disponible">
+            <label>Selecciona un automata</label>
+        </div>
+
+        <div class="containerButton">
+            <div class="button_cont">
+                <a class="example_c" id="1AFD"  target="_blank" rel="nofollow noopener">Lenguaje 1</a>
+            </div>
+    
+            <div class="button_cont">
+                <a class="example_c" id="2AFD"  target="_blank" rel="nofollow noopener">Lenguaje 2</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer">
+
+    </div>
+
+    <script src="loadVentanas.js"></script>
+</body>
+
+</html>
